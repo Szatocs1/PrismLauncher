@@ -8,7 +8,7 @@ Ez az útmutató segít a **PrismLauncher** beállításában Windows-on egy cra
 - [Accounts JSON fájl](https://github.com/Szatocs1/PrismLauncher/blob/main/accounts.json) (később letölthető)
 
 ## 1. lépés: PrismLauncher Letöltése és Telepítése
-1. Nyisd meg ezt a linket: [https://prismlauncher.org/download/windows/](https://prismlauncher.org/download/windows/).
+1. Töltsd le a fenti rar-t..
 2. Töltsd le a **Windows Installer (.exe)** fájlt.
 3. Futtasd az .exe fájlt.
 4. Telepítésnél állítsd be a **Desktop**-ot a második lapon.
