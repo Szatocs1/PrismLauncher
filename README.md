@@ -1,51 +1,60 @@
-# PrismLauncher
+# PrismLauncher Setup Guide for Minecraft Server (1.21.1)
 
-Az alábbi linket megnyitod és átdob a prism launcher felületére. Itt a Windows Installer (.exe) állományt töltsd le a biztos lépések érdekében.
-|
-ˇ
-https://prismlauncher.org/download/windows/
+This guide helps you set up [PrismLauncher](https://prismlauncher.org/) on Windows to play on a cracked Minecraft server with Forge mods (version 1.21.1). It includes creating an offline account.
 
-Ez után ha letöltött, nyisd meg és kezd el a letöltést. Ne felejtsd el a desktopot beállítani a második lapnál.
+## Prerequisites
+- Windows OS
+- Web browser
+- [Accounts JSON file](https://github.com/Szatocs1/PrismLauncher/blob/main/accounts.json) (download later)
 
-Elméletileg most letöltött és jön a Account Controol, itt nyomj yes/igenre. Ekkor letölti a maradékot és befejeződik a letöltés.
+## Step 1: Download and Install PrismLauncher
+1. Open [https://prismlauncher.org/download/windows/](https://prismlauncher.org/download/windows/) in your browser.
+2. Download the **Windows Installer (.exe)**.
+3. Run the .exe file.
+4. During installation, set the install directory to your **Desktop** (second tab/screen).
+5. Allow through **Account Control** (click Yes/Igen).
+6. Complete installation. The launcher interface will open.
+7. Set your preferred language and appearance.
+8. Skip Microsoft account login.
 
-Ez után megjelenik a rendes felület, ahol beállítod a nyelvet, megadod hogyan nézzen ki, és a microsoft fiókosat hagyjuk csak lépjük át. 
+## Step 2: Set Up Offline Account
+1. In PrismLauncher, click the **Steve head** (top-right) → **Manage accounts**.
+2. Press **Win + R**, type `%appdata%`, press Enter.
+3. Navigate to `PrismLauncher` folder.
+4. Download [accounts.json](https://github.com/Szatocs1/PrismLauncher/blob/main/accounts.json):
+   - Go to https://github.com/Szatocs1/PrismLauncher
+   - Click `accounts.json`
+   - Click **...** (top-right of file view) → **Download**
+5. Drag the downloaded `accounts.json` into the `PrismLauncher` folder (overwrite if prompted).
+6. Back in launcher: Close **Accounts** tab.
+7. In the account selection popup, click **OK**.
+8. Ignore any \"This account does not own Minecraft\" warning → **Cancel**.
+9. Steve head → **Manage accounts** again.
+10. Click **Add Offline**:
+    - Name your account → **OK**.
+    - Close launcher.
+11. Verify: In `%appdata%\PrismLauncher`, check for `metacache`, `prismLauncher`, `prismLauncher_update` folders. If missing, notify @Szatocs1.
+12. Reopen launcher → Steve head → **Manage accounts**.
+13. **Add Offline** → Set name → **OK**.
+14. Select your profile → **Set Default**.
 
-Ez után már majdnem megvagyunk, az instance-szel lehet majd verziót tölteni, erről később részletesebben is fogok beszélni. Most viszont ahoz hogy be tudjunk lépni kell egy fiók. A Prism Launchernek a microsoft fiók keresőjét meglehet kerülni a következő lépésekkel: 
-  0.A folyamatosság kedvéért nyissuk meg az Accounts füllet a launcher felületen. Ezt a jobb fent található Steve fejre nyomva 
-  érjük el. Megnyílik egy lenyíló lista: Manage accounts füllre nyomj. És most benne kell lenned az accounts részben.
-  1.A windows + r gombbal megnyitod a kereső felületet, itt beírod ezt: %appdata% majd enter.
-  2.Itt megkeresed azt a mappát hogy: Prism Launcher és belemész.
-  3.Ezen a githubon megtalálható repo-ban benne van az accounts.json fájl, ez kezeli a helyi fiókokat.
-  Ezt most letöltjük:
-    3.1Egy friss oldalon(nyiss meg egy másik lapot a böngészőn belül) másold be ennek a repo-nak a linkjét: 
-    https://github.com/Szatocs1/PrismLauncher , majd enter.
-    3.2A felületen láthatsz egy olyan nevű fájlt, hogy accounts.json, erre rákattintasz és bedobb a fájl tartalmába
-    3.3Itt abban a sorban ahol van a: PrismLauncher/accounts.json címsor, a kereső sáv és egy olyan gomb a sor elején hogy: 
-    main, ennek a végén van egy gomb, benne 3 ponttal, arra nyomj rá.
-    3.4A lenyíló listában az első választásra, a: Download-ra kell nyomni. Most letöltötte a json fájlt.
-  4.Az imént letöltött json fájlt (accounts.json) be kell helyezdned a PrismLauncher mappába. Szimplán húzd át a mapppába.
-  5.Menj vissza a launcher felületére és szimplán zárd be az accounts füllet a jobb alul található: Close gombbal. Ekkor 
-  bedobb egy select an account füllet, itt menj az Ok-ra.
-  6.Majd beadja a this account does not own Minecraft szart, itt csak Cancel-t nyomj.
-  7.Most megint a Steve fejre nyomva menjünk rá a manage accounts füllre.
-  8.A kövi oldalon menj a. Add Offline gombra, a kövi ablakot Ok-ézd le, majd zárd be a PrismLaunchert. Most ellenőrizük hogy sikerült e a folyamat:
-    8.1Nyisd meg azt a mappát, ahova beillesztetted az accounts.json fájlt (PrismLauncher). Ha van olyan hogy metacache,  
-    prismLauncher meg prismLauncher_update akkor jó. Ha nincs ilyen értesíts engem, Szatocs-ot.
-  9.Nyisd meg a PrismLaunchert és menj a Steve fejre megint. Ha minden jól alakult most van egy No profile (xbox profile 
-  missing füll itt.) Neked a manage accounts kell megint, arra nyomj.
-  10.Ha most rányomsz a. Add Offline gombra, már csinálhatsz egy fiókot. Add meg a neved és nyomj az Ok-ra.
-  11.Most megjelennik a nagy listában a profilod. Pipáld be és nyomj a Set Default gombra. Innentől ez az alap értelmezett 
-  fiók.
+## Step 3: Create Minecraft Instance
+1. Main screen → **Add Instance**.
+2. Search/filter for **1.21.1**, select **Forge** as Mod Loader.
+3. Click **OK**. Instance appears.
+4. Click instance → **Launch** (right side).
 
-Gratula, most van egy fiókod. Adjunk hozzá egy verziót, mégpedig a szerver 1.21.11-es verzióját:
-  1.Az alap felületen menj a: Add Instance gombra.
-  2.Válaszd ki az 1.21.11 verziót, vidd a kurzort a Filter részre, majd görgess le és add meg a Mod Loader-nek pl a Forge-
-  ot.
-  3.Ez után az alján nyomj a: Ok gombra és most megjelenik a verziód.
-  4.Kattints az új 1.21.11 nevű blokkra és a jobb oldalon található Launch gombra nyomj, ha betöltött elméletileg mindennek 
-  működnie kell.
+## Step 4: Connect to Server
+Contact @Szatocs1 for the private server address (not public for security).
 
-Mivel ezt a repot bárki láthatja ezért kérjétek el tőlem a server address-t.
+## Troubleshooting
+- **No metacache folders after Step 2.11**: Redownload accounts.json or check paths.
+- **Account not detected**: Restart launcher after JSON placement.
+- **Launch fails**: Ensure Forge 1.21.1 selected; check Java (bundled usually).
 
-Sikeresen csináltál egy cracked account-ot!
+## Notes
+- This creates a **cracked/offline account** for server play.
+- Server uses Forge mods—do not change version without checking compatibility.
+- For issues/contributions: Open GitHub issues or contact maintainer.
+
+Success! You've set up PrismLauncher for the server. 🎮
