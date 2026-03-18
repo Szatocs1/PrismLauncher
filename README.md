@@ -1,6 +1,6 @@
-# PrismLauncher Útmutató (Minecraft Szerver 1.21.1-hez)
+# PrismLauncher Útmutató (Minecraft Szerver 1.20.1-hez)
 
-Ez az útmutató segít a **PrismLauncher** beállításában Windows-on egy cracked Minecraft szerverhez Forge modokkal (1.21.1 verzió). Tartalmazza az offline fiók létrehozását.
+Ez az útmutató segít a **PrismLauncher** beállításában Windows-on egy cracked Minecraft szerverhez Forge modokkal (1.20.1 verzió). Tartalmazza az offline fiók létrehozását.
 
 ## Előfeltételek
 - Windows operációs rendszer
@@ -9,13 +9,12 @@ Ez az útmutató segít a **PrismLauncher** beállításában Windows-on egy cra
 
 ## 1. lépés: PrismLauncher Letöltése és Telepítése
 1. Töltsd le a fenti rar-t..
-2. Töltsd le a **Windows Installer (.exe)** fájlt.
-3. Futtasd az .exe fájlt.
-4. Telepítésnél állítsd be a **Desktop**-ot a második lapon.
-5. Engedélyezd az **Account Control**-ön (Yes/Igen).
-6. A telepítés befejeződik, megnyílik a felület.
-7. Állítsd be a nyelvet és kinézetet.
-8. Hagyd ki a Microsoft fiók bejelentkezést.
+2. Futtasd az .exe fájlt.
+3. Telepítésnél állítsd be a **Desktop**-ot a második lapon.
+4. Engedélyezd az **Account Control**-ön (Yes/Igen).
+5. A telepítés befejeződik, megnyílik a felület.
+6. Állítsd be a nyelvet és kinézetet.
+7. Hagyd ki a Microsoft fiók bejelentkezést.
 
 ## 2. lépés: Offline Fiók Beállítása
 1. PrismLauncher-ben kattints a **Steve fejre** (jobb fent) → **Manage accounts**.
@@ -40,7 +39,7 @@ Ez az útmutató segít a **PrismLauncher** beállításában Windows-on egy cra
 
 ## 3. lépés: Instance Létrehozása
 1. Főképernyő → **Add Instance**.
-2. Keress **1.21.1**-re (Filter), válaszd **Forge** Mod Loadert.
+2. Keress **1.21.11**-re (Filter), válaszd **Forge** Mod Loadert.
 3. **OK**. Megjelenik az instance.
 4. Kattints rá → **Launch** (jobb oldalon).
 
