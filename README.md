@@ -39,17 +39,19 @@ Ez az útmutató segít a **PrismLauncher** beállításában Windows-on egy cra
 
 ## 3. lépés: Instance Létrehozása
 1. Főképernyő → **Add Instance**.
-2. Keress **1.21.11**-re (Filter), válaszd **Forge** Mod Loadert.
+2. Keress **1.20.1**-re (Filter), válaszd **Forge** Mod Loadert.
 3. **OK**. Megjelenik az instance.
 4. Kattints rá → **Launch** (jobb oldalon).
 
-## 4. lépés: Szerverhez Csatlakozás
+##4. lépés: Modok letöltése
+1. A github-ról töltsd le a modok rar-okat.
+2. Keresd ki az instance-en belül a mod mappát / kattints az instance-re és utána a floder-ra. Majd Jobb oldalon menj a Folder/Mappa gomra és ezután a Minecraft-ra a megnyitott fájl kezelőben.
+3. A letöltött modokat másold be a mods mappába.
+4. Tesztelésnek indítsd el, ha valami hiányzik szólj Szatocs-nak.
+
+## 5. lépés: Szerverhez Csatlakozás
 Kérd el tőlem (Szatocs) a szerver címet privátban (nem publikus).
 
-## Hibaelhárítás
-- **Nincs metacache mappa (2.11)**: Újra töltsd le accounts.json-t, ellenőrizd útvonalat.
-- **Fiók nem észlelve**: Indítsd újra a launchert JSON után.
-- **Indítás sikertelen**: Ellenőrizd Forge 1.21.1-et; Java általában bundled.
 
 ## Megjegyzések
 - Ez **cracked/offline fiókot** készít szerver játéshoz.
